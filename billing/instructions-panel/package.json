@@ -1,0 +1,16 @@
+{
+  "name": "instructions-panel",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "instructions-fill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {},
+  "devDependencies": {
+    "eslint": "^3.18.0"
+  }
+}
