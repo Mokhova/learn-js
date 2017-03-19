@@ -1,0 +1,49 @@
+.instructions {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  margin: 0px 0 0 -50%;
+  left: 50%;
+  background-color: rgba(25, 33, 53, 0.8);
+  color: #fff;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.instructions-content {
+  position: relative;
+  margin: 0 auto;
+  max-width: 940px;
+  min-width: 600px;
+  min-height: 55px;
+  width: 70%;
+  padding: 7px 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  /*для отладки
+  border: 1px solid white;*/
+}
+
+.instructions-text {
+  flex-grow: 4;
+  width: 75%;
+  margin: 0 15px 0 0;
+  /*для отладки
+  border: 1px solid white;*/
+}
+
+.instructions-action {
+  width: 210px;
+  flex-shrink: 0;
+  margin: 10px 0;
+  /*для отладки
+  border: 1px solid white;*/
+}
+
+.instructions-action .button {
+  flex-shrink: 0;
+}

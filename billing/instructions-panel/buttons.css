@@ -1,0 +1,51 @@
+.button {
+  box-sizing: content-box;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 2px;
+  outline:none;
+  text-align: center;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+}
+
+.button-casual {
+    color: #404040;
+    background-color:#EDEDED;
+    box-shadow: 0px 4px 0px #D9D9D9;
+}
+
+.button-casual:hover {
+    box-shadow: 0 5px 0px #CFCFCF;
+    top: -1px;
+}
+
+.button-casual:active
+{
+    box-shadow: none;
+    top:4px;
+}
+
+.button-major {
+    color: #fff;
+    background-color:#3390D8;
+    box-shadow: 0px 4px 0px #2972AE;
+}
+
+.button-major:hover {
+    box-shadow: 0px 5px 0px #2972AE;
+    top: -1px;
+}
+
+.button-major:active {
+    box-shadow: none;
+    top: 4px;
+}
+
+.small {
+  padding: 5px 25px;
+}
